@@ -16,8 +16,6 @@ app.get("/", (req, res) => {
   });
 });
 
-const PORT = 3000;
-
 app.get("/analyze/:username", async (req, res) => {
   try {
     const username = req.params.username;
